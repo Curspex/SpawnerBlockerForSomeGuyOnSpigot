@@ -1,0 +1,8 @@
+name: SpawnerBlocker
+main: sx.cur.omnivion.spawnerblocker.SpawnerBlocker
+version: 1.0.0
+load: POSTWORLD
+database: false
+description: SpawnerBlockerForSomeGuyOnSpigot
+author: Omnivion
+website: http://cur.sx
