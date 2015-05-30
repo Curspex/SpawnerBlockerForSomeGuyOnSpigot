@@ -1,3 +1,11 @@
+ #####  ######
+#     # #     # 
+#       #     # 
+ #####  ######
+     # #     #
+#     # #     #
+ #####  ######
+
 name: SpawnerBlocker
 main: sx.cur.omnivion.spawnerblocker.SpawnerBlocker
 version: 1.0.0
