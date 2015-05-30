@@ -14,3 +14,8 @@ database: false
 description: SpawnerBlockerForSomeGuyOnSpigot
 author: Omnivion
 website: http://cur.sx
+
+permissions:
+  spawnerblocker.allow:
+    description: Allows placement of spawners in the Nether
+    default: op
