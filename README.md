@@ -1,0 +1,2 @@
+# SpawnerBlockerForSomeGuyOnSpigot
+SpawnerBlockerForSomeGuyOnSpigot
