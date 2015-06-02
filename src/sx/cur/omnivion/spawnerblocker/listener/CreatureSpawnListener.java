@@ -7,7 +7,7 @@ import org.bukkit.event.entity.CreatureSpawnEvent;
 import org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason;
 import org.bukkit.plugin.EventExecutor;
 
-public class EntitySpawnListener  implements Listener, EventExecutor {
+public class CreatureSpawnListener  implements Listener, EventExecutor {
 
 	@Override
 	public void execute(Listener listener, Event mevent) throws EventException
