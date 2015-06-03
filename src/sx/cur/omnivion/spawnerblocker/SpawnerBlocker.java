@@ -11,7 +11,7 @@ import sx.cur.omnivion.spawnerblocker.listener.CreatureSpawnListener;
 
 public class SpawnerBlocker extends JavaPlugin {
 
-	static SpawnerBlocker i;
+	protected static SpawnerBlocker i;
 	
 	@Override
 	public void onEnable()
@@ -19,10 +19,10 @@ public class SpawnerBlocker extends JavaPlugin {
 		i = this;
 		final PluginManager manager = i.getServer().getPluginManager();
 		
-		BlockPlaceListener blockplacelistener = new BlockPlaceListener();
+		final BlockPlaceListener blockplacelistener = new BlockPlaceListener();
 		manager.registerEvent(BlockPlaceEvent.class, blockplacelistener, EventPriority.HIGH, blockplacelistener, i, true);
 		
-		CreatureSpawnListener entityspawnlistener = new CreatureSpawnListener();
+		final CreatureSpawnListener entityspawnlistener = new CreatureSpawnListener();
 		manager.registerEvent(CreatureSpawnEvent.class, entityspawnlistener, EventPriority.HIGH, entityspawnlistener, i, true);
 	}
 	

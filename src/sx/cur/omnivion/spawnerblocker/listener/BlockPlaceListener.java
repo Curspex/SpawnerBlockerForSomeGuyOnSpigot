@@ -14,6 +14,7 @@ public class BlockPlaceListener implements Listener, EventExecutor {
 	@Override
 	public void execute(Listener listener, Event mevent) throws EventException
 	{
+
 		if (!(mevent instanceof BlockPlaceEvent)) return;
 		
 		BlockPlaceEvent event = (BlockPlaceEvent) mevent;
@@ -26,6 +27,7 @@ public class BlockPlaceListener implements Listener, EventExecutor {
 		
 		event.setCancelled(true);
 		event.getPlayer().sendMessage(ChatColor.RED + "You don't have permission to place that here!");
+
 	}
 
 }
